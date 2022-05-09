@@ -1,0 +1,25 @@
+.image{
+    height: 40%;
+    width: 60%;
+    opacity: 0%;
+    max-width: 700px;
+    max-height: 600px;
+    /* background-color: aqua; */
+    mix-blend-mode: color-dodge;
+    position: relative;
+    left: 5%;
+    top: 35vh;
+    justify-content: center;
+    animation-name: ex;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes ex{
+    0%   {color:none;opacity: 0%;top:80vh;}
+    25%  {color:none;opacity: 25%; }
+    50%  {color:none;opacity: 50%;}
+    75%  {color:none;opacity: 75%; }
+    100% {color:aliceblue;opacity: 100%;}
+  }
+ 

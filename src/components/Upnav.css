@@ -1,0 +1,10 @@
+.uparrow{
+    /* background-color: chartreuse; */
+    align-items: center;
+    font-size: 2.0rem;
+    justify-content: center;
+    position: relative;
+    color: #C5CAE9;
+    right: 100vh;
+    top: 90vh;
+}
